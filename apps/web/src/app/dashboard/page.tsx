@@ -17,3 +17,9 @@ export default function Dashboard() {
     </main>
   );
 }
+
+const onEnable = async () => {
+  const tx = await fetch('/api/enable', {/* … */}).then(r => r.json());
+  await sendTransaction(Uint8Array.from(tx), connection);
+};
+document.getElementById('enable')?.addEventListener('click', onEnable);
