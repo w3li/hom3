@@ -1,0 +1,25 @@
+{
+  "name": "hom3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {
+    "@bundlr-network/client": "^0.11.17",
+    "@dialectlabs/react-sdk": "^2.1.1",
+    "@metaplex-foundation/js": "^0.20.1",
+    "@shyft-to/js": "^0.2.40",
+    "@solana/wallet-adapter-react": "^0.15.37",
+    "@solana/wallet-adapter-react-ui": "^0.9.37",
+    "@solana/web3.js": "^1.98.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.2"
+  }
+}
